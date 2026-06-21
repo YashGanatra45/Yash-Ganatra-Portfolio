@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Yatin Ganatra | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <h1>Yash Yatin Ganatra</h1>
+            <p>Aspiring Full-Stack Developer</p>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        
+        <section class="profile-card">
+            <img src="C:\Users\Yash\OneDrive\Desktop\Yash Work\Yash Kodbud Internship\Task_1\Kodbud.jpeg" alt="Yash Yatin Ganatra Headshot" class="avatar">
+            <div class="bio">
+                <h2>Hi there! 👋</h2>
+                <p>I'm Yash, a computer science student passionate about building clean, responsive user interfaces. Currently learning the ins and outs of web development and exploring UI/UX design in my free time.</p>
+            </div>
+        </section>
+
+        <section class="content-block">
+            <h2>Education</h2>
+            <div class="item">
+                <h3>B.Sc. in Computer Science</h3>
+                <p class="meta">Mumbai University | 2024 - Present</p>
+            </div>
+            <div class="item">
+                <h3>Web Development Boot camp</h3>
+                <p class="meta">Online Certification | 2025</p>
+            </div>
+        </section>
+
+        <section class="content-block">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3 & Flexbox</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section class="content-block">
+            <h2>Projects</h2>
+            
+            <div class="project-card">
+                <h3>Ecommerce Website For Fashion Brand</h3>
+                <p>A simple web application that lets users browse and purchase fashion items from a virtual store.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Restaurant Ordering Application</h3>
+                <p>A web application that allows users to browse a restaurant menu and place orders online.</p>
+            </div>
+        </section>
+
+        <section class="content-block">
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out using the form below, and I'll get back to you as soon as possible!</p>
+            
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message simulation submitted!');">
+                <div class="form-group">
+                    <label for="userName">Name</label>
+                    <input type="text" id="userName" required placeholder="Your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="userEmail">Email</label>
+                    <input type="email" id="userEmail" required placeholder="your.email@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="userMessage">Message</label>
+                    <textarea id="userMessage" rows="5" required placeholder="Type your message here..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Yash Yatin Ganatra. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
