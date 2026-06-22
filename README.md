@@ -25,6 +25,7 @@ A clean, responsive personal portfolio website built using vanilla HTML, CSS, an
 ├── style.css      # Custom styling stylesheet
 └── README.md      # Project documentation
 
-👨‍💻 Author
+
+##👨‍💻 Author
 **Yash Ganatra**
 Web Development Internship Project
